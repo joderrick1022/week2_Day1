@@ -94,12 +94,25 @@ namespace week2_Day1
             //int[] luckyNumbers = { 10, 5, 50, 10, 50, 5, 10 };
             //Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
 
-            char[] alphaLetters = {'G','L','l', 'f','h'};
-            
-            
-            Console.WriteLine(alphaLetters[0]);
-            Array.Reverse(alphaLetters);
-            Console.WriteLine(alphaLetters[0]);
+
+
+
+
+
+
+
+            // creaetd array with letters call first index reverse and call first index
+
+            //char[] alphaLetters = {'G','L','l', 'f','h'};
+            //Console.WriteLine(alphaLetters[0]);
+            //Array.Reverse(alphaLetters);
+            //Console.WriteLine(alphaLetters[0]);
+
+
+            // create a array of rnd students
+            string[] students = {"jack ","mike","bill","kacy","matt", };
+         Array.Sort(students);
+            Console.WriteLine(students[0] + "\n" + students[4]);
 
 
 
