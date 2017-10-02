@@ -48,18 +48,64 @@ namespace week2_Day1
 
 
             // this is how you declare and initialize a empty array
-            int[] numbers = new int[4];
-            numbers[0] = 43;
-            numbers[1] = 12;
-            Console.WriteLine("pick a number");
-            numbers[2] = int.Parse(Console.ReadLine());
-            Console.WriteLine("pick a number");
-            numbers[3] = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[4];
+            //numbers[0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("pick a number");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("pick a number");
+            //numbers[3] = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\n");
-            Console.WriteLine("\n");
+            //Console.WriteLine("\n");
+            //Console.WriteLine("\n");
 
-            Console.WriteLine(numbers[3]);
+            //Console.WriteLine(numbers[3]);
+
+            //DECLARE 7 DAYS OF THE WEEK IN ARRAY
+            //string[]  daysOfTheWeek = {"MON","TUES","WENS","THUR","FRI","SAT","SUND"};
+
+            //list 5 students ages using the (new) keyword,
+            //int[] studentAge = new int[5];
+
+            //studentAge[0] = 10;
+            //studentAge[1] = 25;
+            //studentAge[2] = 46; // this was naming each index in the studentAge int,
+            //studentAge[3] = 55;
+            //studentAge[4] = 25;
+
+            // write my name give name letters values in array.
+
+            //string[] lastName = { "L", "G", "D", "N", "O", "E" };
+
+            //Console.WriteLine(lastName[1] + "\n" + lastName[4] + "\n" + lastName[0] + "\n" + lastName[2] + "\n" + lastName[5] + "\n" + lastName[3] );
+
+
+            //make a array of names, FIND INDEX OF specific name,
+
+
+            //string[] rndNames = { "JOE", "MAT", "BILLY", "WILLY", "FRANK", "JARRYD", };
+
+            //Console.WriteLine(Array.IndexOf(rndNames, "WILLY"));
+
+
+
+            //create a array of lucky numbers
+
+            //int[] luckyNumbers = { 10, 5, 50, 10, 50, 5, 10 };
+            //Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+
+            char[] alphaLetters = {'G','L','l', 'f','h'};
+            
+            
+            Console.WriteLine(alphaLetters[0]);
+            Array.Reverse(alphaLetters);
+            Console.WriteLine(alphaLetters[0]);
+
+
+
+
+
+
 
 
         }
