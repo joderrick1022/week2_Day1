@@ -110,12 +110,38 @@ namespace week2_Day1
 
 
             // create a array of rnd students
-            string[] students = {"jack ","mike","bill","kacy","matt", };
-         Array.Sort(students);
-            Console.WriteLine(students[0] + "\n" + students[4]);
+            // use sort method to sort array
+            // call first element
 
 
 
+            //   string[] students = {"jack ","mike","bill","kacy","matt", };
+            //Array.Sort(students);
+            //   Console.WriteLine(students[0] + "\n" + students[4]);
+
+
+            // create array of favorite numbers
+            //sort the number
+            //list first and last number
+
+
+            int[] favNumbers = new int[10];
+
+            favNumbers[0] = 2 ;
+            favNumbers[1] = 8 ;
+            favNumbers[2] = 3 ;
+            favNumbers[3] = 4 ;
+            favNumbers[4] = 5 ;
+            favNumbers[5] = 6 ;
+            favNumbers[6] = 9 ;
+            favNumbers[7] = 10;
+            favNumbers[8] = 7 ;
+            favNumbers[9] = 1 ;
+
+
+            Array.Sort(favNumbers);
+
+            Console.WriteLine(favNumbers[0] + "\n" + favNumbers[9]);
 
 
 
