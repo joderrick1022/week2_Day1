@@ -125,23 +125,23 @@ namespace week2_Day1
             //list first and last number
 
 
-            int[] favNumbers = new int[10];
+            //int[] favNumbers = new int[10];
 
-            favNumbers[0] = 2 ;
-            favNumbers[1] = 8 ;
-            favNumbers[2] = 3 ;
-            favNumbers[3] = 4 ;
-            favNumbers[4] = 5 ;
-            favNumbers[5] = 6 ;
-            favNumbers[6] = 9 ;
-            favNumbers[7] = 10;
-            favNumbers[8] = 7 ;
-            favNumbers[9] = 1 ;
+            //favNumbers[0] = 2 ;
+            //favNumbers[1] = 8 ;
+            //favNumbers[2] = 3 ;
+            //favNumbers[3] = 4 ;
+            //favNumbers[4] = 5 ;
+            //favNumbers[5] = 6 ;
+            //favNumbers[6] = 9 ;
+            //favNumbers[7] = 10;
+            //favNumbers[8] = 7 ;
+            //favNumbers[9] = 1 ;
 
 
-            Array.Sort(favNumbers);
+            //Array.Sort(favNumbers);
 
-            Console.WriteLine(favNumbers[0] + "\n" + favNumbers[9]);
+            //Console.WriteLine(favNumbers[0] + "\n" + favNumbers[9]);
 
 
 
